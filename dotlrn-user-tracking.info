@@ -7,12 +7,13 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/dotlrn-user-tracking-0.1d.apm">
+    <version name="0.1d2" url="http://openacs.org/repository/download/apm/dotlrn-user-tracking-0.1d2.apm">
+        <owner url="mailto:pabloa@tid.es">Pablo Arozarena</owner>
         <owner url="mailto:doa@tid.es">David Ortega</owner>
-        <release-date>2004-10-25</release-date>
-        <vendor url="http://www.openacs.org">Elane</vendor>
+        <release-date>2005-04-13</release-date>
+        <vendor url="http://www.e-lane.org">Elane</vendor>
 
-        <provides url="dotlrn-user-tracking" version="0.1d"/>
+        <provides url="dotlrn-user-tracking" version="0.1d2"/>
         <requires url="dotlrn" version="1.0"/>
         <requires url="user-tracking-portlet" version="0.1d"/>
 

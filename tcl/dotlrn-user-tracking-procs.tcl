@@ -57,13 +57,12 @@ namespace eval dotlrn_user_tracking {
         dotlrn_applet::add_applet_to_dotlrn -applet_key [applet_key] -package_key [my_package_key]
     }
 
-    ad_proc -public remove_applet {
-        community_id
-        package_id
-    } {
+    ad_proc -public remove_applet {} {
         remove the applet
     } {
-        ad_return_complaint 1 "[applet_key] remove_applet not implemented!"
+    	set applet_id [dotlrn_applet::get_applet_id_from_key [my_package_key]]
+    	db_exec_plsql delete_applet_from_communities { *SQL* } 
+    	db_exec_plsql delete_applet { *SQL* } 
     }
 
     ad_proc -public add_applet_to_community {
