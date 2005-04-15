@@ -15,7 +15,7 @@
 
         <provides url="dotlrn-user-tracking" version="0.1d2"/>
         <requires url="dotlrn" version="1.0"/>
-        <requires url="user-tracking-portlet" version="0.1d"/>
+        <requires url="user-tracking-portlet" version="0.1d2"/>
 
         <callbacks>
         </callbacks>
