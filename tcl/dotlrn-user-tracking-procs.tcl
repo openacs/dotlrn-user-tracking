@@ -47,7 +47,7 @@ namespace eval dotlrn_user_tracking {
     } {
 	returns the pretty name
     } {
-       	return "[_ user-tracking.user_tracking_managment"
+       	return "#user-tracking.user_tracking_managment#"
     }
 
     ad_proc -public add_applet {
